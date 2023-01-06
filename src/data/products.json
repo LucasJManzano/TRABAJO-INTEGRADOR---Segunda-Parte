@@ -1,0 +1,146 @@
+[
+    {
+        "id":"1", 
+        "name":"Cuaderno rayado",
+        "brande":"Verde Menta",
+        "price":1800,
+        "description":"Cuaderno rayado con logo, hojas de 80g",
+        "images":"/images/cuadernoRayado.jpg"
+    },
+    {
+        "id":"2", 
+        "name":"Cuaderno liso",
+        "brande":"Verde Menta",
+        "price":1800,
+        "description":"Cuaderno liso con logo, hojas de 80g",
+        "images":"/images/HOJALISA.jpg"
+    },
+    {
+        "id":"3", 
+        "name":"Cuaderno didáctico niños",
+        "brande":"Verde Menta",
+        "price":1500,
+        "description":"Cuaderno de juegos para niños entre 3 y 8 años",
+        "images":"/images/didacticoNiños.jpg"
+    },
+    {
+        "id":"4", 
+        "name":"Cuaderno didáctico niñas",
+        "brande":"Verde Menta",
+        "price":1500,
+        "description":"Cuaderno de juegos para niñas entre 3 y 8 años.",
+        "images":"/images/cuadernoNiña.jpg"
+    },
+    {
+        "id":"5", 
+        "name":"Cuaderno pediátrico",
+        "brande":"Verde Menta",
+        "price":2500,
+        "description":"Cuaderno pediátrico con toda la info para tu bebé, seguimiento médico, fotos y mucho más.",
+        "images":"/images/pediatrico.jpg"
+    },
+    {
+        "id":"6", 
+        "name":"Agenda 2023 semana a la vista con columnas",
+        "brande":"Verde Menta",
+        "price":2800,
+        "description":"Agenda 2023 semana a la vista organizada en columnas.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"7", 
+        "name":"Agenda 2023 semana a la vista con renglones",
+        "brande":"Verde Menta",
+        "price":2800,
+        "description":"Agenda 2023 semana a la vista con renglones por cada día.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"8", 
+        "name":"Agenda 2023 semana a la vista con horarios",
+        "brande":"Verde Menta",
+        "price":2800,
+        "description":"Agenda 2023 semana a la vista con horarios de 8hs a 20hs, ideal para profesionales.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"9", 
+        "name":"Agenda 2023 dos días por página",
+        "brande":"Verde Menta",
+        "price":3200,
+        "description":"Agenda 2023 dos días por página con renglones, con más espacio para escribir.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"10", 
+        "name":"Agenda 2023 un día por página rayado",
+        "brande":"Verde Menta",
+        "price":3500,
+        "description":"Agenda 2023 un día por página, ideal para aquellas personas que necesitan escribir o planificar detalladamente su día.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"11", 
+        "name":"Agenda 2023 un día por página con horarios",
+        "brande":"Verde Menta",
+        "price":3500,
+        "description":"Agenda 2023 un día por página,diseñada para aquellas personas que necesitan el detalle de su actividad diaria desde las 8hs hasta las 20hs.",
+        "images":"/images/agenda2023.jpg"
+    },
+    {
+        "id":"12", 
+        "name":"Agenda perpetua semana a la vista con columnas",
+        "brande":"Verde Menta",
+        "price":2800,
+        "description":"Agenda sin fechas, solo días y meses a completar organizados en una semana a la vista en columnas",
+        "images":"/images/agendaPerpetua.jpg"
+    },
+    {
+        "id":"13", 
+        "name":"Agenda perpetua semana a la vista con renglones",
+        "brande":"Verde Menta",
+        "price":2800,
+        "description":"Agenda sin fechas, solo días y meses a completar organizados en una semana a la vista con renglones por cada día.",
+        "images":"/images/agendaPerpetua.jpg"
+    },
+    {
+        "id":"14", 
+        "name":"Agenda perpetua dos dias por página con renglones",
+        "brande":"Verde Menta",
+        "price":3200,
+        "description":"Agenda sin fechas, solo días y meses a completar con dos días por cada página, amplio espacio para escribir.",
+        "images":"/images/agendaPerpetua.jpg"
+    },
+    {
+        "id":"15", 
+        "name":"Agenda perpetua un día por página con renglones",
+        "brande":"Verde Menta",
+        "price":3500,
+        "description":"Agenda sin fechas, solo días y meses a completar diseñado en un día por página con renglones, ideal para personas que necesitas espacio para organizar su día.",
+        "images":"/images/agendaPerpetua.jpg"
+    },
+    {
+        "id":"16", 
+        "name":"Libretas A6 hojas lisas",
+        "brande":"Verde Menta",
+        "price":300,
+        "description":"Libretas tamaño A6 con 40 hojas lisas, ideal para notas rápidas.",
+        "images":"/images/libreta.jpg"
+    },
+    {
+        "id":"17", 
+        "name":"Libretas A6 con mandalas",
+        "brande":"Verde Menta",
+        "price":300,
+        "description":"Libretas tamaño A6 con 20 hojas con mandalas en blanco y negro para colorear y 20 hojas lisas para dibujar o escribir lo que quieras.",
+        "images":"/images/libreta.jpg"
+    },
+    {
+        "id":"18", 
+        "name":"Stickers",
+        "brande":"Verde Menta",
+        "price":200,
+        "description":"Sticker en tira, diseños divertidos para recortar y pegar donde más te guste",
+        "images":"/images/stickers.jpg"
+    }
+]

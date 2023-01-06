@@ -1,0 +1,39 @@
+.col{margin-top: 3%;}
+
+#titleHome{font-family: 'Kaushan Script', cursive; text-align: center;font-size: 60px;}
+
+#logoVM{width: 15%;}
+
+#linkProducts {text-decoration: none; color: rgb(110, 108, 108);font-family: 'Kaushan Script', cursive;font-size: 19px;text-align: center;}
+
+#linkProducts1 {text-decoration: none; color: rgb(110, 108, 108);font-family: 'Kaushan Script', cursive;font-size: 15px;text-align: center;}
+
+#titleEdit {font-family: 'Kaushan Script', cursive; text-align: center;font-size: 60px;}
+#titleDelete {font-family: 'Kaushan Script', cursive; text-align: center;font-size: 30px;}
+
+
+.btnBack{display: flex;justify-content: space-around;}
+
+#pfooter{font-family: 'Kaushan Script', cursive;font-size: 20px;}
+
+#imgFooter{width: 10%;}
+
+body{background-color: rgb(246, 241, 232);margin-top: 0%;}
+
+#imgHome{width: 60%;border-radius: 5%;}
+
+header{background-color: rgb(200, 239, 200);}
+
+#pageNotFound {width: 50%;}
+
+#imgDetail {width: 100%; border-radius: 5%;}
+#imgEdit {width: 200px; border-radius: 5%;}
+#imgDelete {width: 20%; border-radius: 5%;}
+
+.columna{display: flex;flex-direction: column;}
+
+.page404 {display: flex;flex-direction: column ;align-items: center;}
+
+/*25, 249, 221*/
+
+.cardSize {width: 14rem;}

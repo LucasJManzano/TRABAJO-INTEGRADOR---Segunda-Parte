@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+
+    <title>Delete Product</title>
+</head>
+    <!-- header -->
+    <%- include ('partials/header.ejs') %> 
+<body>
+    <br>
+    <form class="form" method="POST" action="/productos/delete/<%=productos.id%>" enctype="multipart/form-data">
+        <div class="container">
+            <div class="row">
+                <H2 id="titleDelete">¿Está seguro de eliminar <%=productos.name%>?</H2><br>
+                <div class="col btnBack">
+                    <button type="submit" class="btn btn-primary">Eliminar</button>
+                </div>
+                <div class="col btnBack">
+                    <a href="http://localhost:3000/productos"><button type="button" class="btn btn-primary" >Volver a productos</button></a> 
+                </div>
+            </div>
+        </div>
+   
+    </form>
+</body>
+    <!-- footer -->
+    <%- include('partials/footer.ejs') %> 
+</html>

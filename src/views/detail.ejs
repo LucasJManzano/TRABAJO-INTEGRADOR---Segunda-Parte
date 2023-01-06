@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+
+    <title>Detail</title>
+</head>
+    <!-- header -->
+    <%- include ('partials/header.ejs') %> 
+<body>
+    <div class="container">
+        <form class="form" action="POST" >
+            <div class="row align-items-center">
+                <div class="col justify-content-center">
+                    <img id="imgDetail" src="/images/<%=productos.images%>"  alt="<%=productos.name%>">
+                </div>
+                <div class="col justify-content-center">
+                    <div class="card-body">
+                        <h2 id="linkProducts">- <%=productos.name%> -</h2>
+                        <h3 id="linkProducts"><%=productos.brande%></h3>
+                        <h3 id="linkProducts">$<%=productos.price%></h3>
+                        <p id="linkProducts1"><%=productos.description%> </p>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="columna">
+                        <button type="button" class="btn btn-outline-primary" href="#" >Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </form>
+        <div class="container">
+            <div class="row">
+                <div class="col btnBack">
+                    <a href="http://localhost:3000/productos"><button type="button" class="btn btn-primary">Volver a productos</button></a>
+                </div>
+                <div class="col btnBack">
+                    <a href="http://localhost:3000/productos/edit/<%=productos.id%>"><button type="button" class="btn btn-primary">Editar</button></a>
+                </div>
+                <div class="col btnBack">
+                    <a href="http://localhost:3000/productos/delete/<%=productos.id%>"><button type="button" class="btn btn-primary">Eliminar producto</button></a>
+                </div>
+            </div>    
+        </div>
+    </div>
+   
+    
+   
+</body>
+    <!-- footer -->
+    <%- include('partials/footer.ejs') %> 
+</html>
